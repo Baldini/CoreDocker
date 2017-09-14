@@ -20,5 +20,5 @@ test:
   override:
     - dotnet test test/UnitTest
   post:
-    - dotnet publish --configuration Release .\src\
-    - cp -R src/bin/Release/netcoreapp1.1/ $CIRCLE_ARTIFACTS/
+    - dotnet publish --configuration Release src
+    - cp -R src/bin/Release/netcoreapp2.0/ $CIRCLE_ARTIFACTS/
