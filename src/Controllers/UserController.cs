@@ -15,7 +15,8 @@ namespace CoreDocker.Controllers
             return Ok(new List<string>(){
                "Guilherme Baldini",
                "João Salles",
-               "Anderson Vitorino" 
+               "Anderson Vitorino",
+               "Fabricio Hilario"
             });
         }
     }
