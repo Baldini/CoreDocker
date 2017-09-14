@@ -11,7 +11,8 @@ machine:
 
 dependencies:
   override:
-    - dotnet restore
+    - dotnet restore src
+    - dotnet restore test/UnitTest
 
 test:
   pre:
